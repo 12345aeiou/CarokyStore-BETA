@@ -1,0 +1,231 @@
+
+
+/*#Saludo {
+    color: rgb(0, 55, 128);
+    /* text-align: center; -- Ya no es necesario si el contenedor tiene justify-content: center 
+    border: 2px solid mediumorchid;
+    font-size: 3em;
+    animation: scale-up-vertical-center 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    padding: 10px 20px; /* Agregado para que el borde se vea mejor alrededor del texto 
+}*/
+
+
+@keyframes scale-up-vertical-center {
+    0% {
+        transform: scaleY(.4);
+    }
+    100% {
+        transform: scaleY(1);
+    }
+}
+
+#VESTIDOS1{
+    text-align: center;
+    font-size: 3em;
+    color: black; /* Color base blanco o muy claro */
+    text-shadow:0 0 7px #fff,       /* Sombra blanca central */
+        0 0 10px #fff,      /* Más sombra blanca */
+        0 0 21px #fff,      /* Sombra blanca más grande */
+        0 0 42px #ff007f,      /* Color neón (ciano brillante) */
+        0 0 82px #ff007f,      /* Más del color neón */
+        0 0 92px #ff007f,      /* Sombra grande del color neón */
+        0 0 102px #ff007f,     /* Sombra muy grande del color neón */
+        0 0 151px #ff007f;     /* Sombra gigante del color neón */
+}
+
+
+#MAQUILLAJES1{
+    text-align: center;
+    font-size: 3em;
+    color: black; /* Color base blanco o muy claro */
+    text-shadow:0 0 7px #fff,       /* Sombra blanca central */
+        0 0 10px #fff,      /* Más sombra blanca */
+        0 0 21px #fff,      /* Sombra blanca más grande */
+        0 0 42px #ff007f,      /* Color neón (ciano brillante) */
+        0 0 82px #ff007f,      /* Más del color neón */
+        0 0 92px #ff007f,      /* Sombra grande del color neón */
+        0 0 102px #ff007f,     /* Sombra muy grande del color neón */
+        0 0 151px #ff007f;     /* Sombra gigante del color neón */
+}
+
+#ACCESORIOS1{
+    text-align: center;
+    font-size: 3em;
+    color: black; /* Color base blanco o muy claro */
+    text-shadow:0 0 7px #fff,       /* Sombra blanca central */
+        0 0 10px #fff,      /* Más sombra blanca */
+        0 0 21px #fff,      /* Sombra blanca más grande */
+        0 0 42px #ff007f,      /* Color neón (ciano brillante) */
+        0 0 82px #ff007f,      /* Más del color neón */
+        0 0 92px #ff007f,      /* Sombra grande del color neón */
+        0 0 102px #ff007f,     /* Sombra muy grande del color neón */
+        0 0 151px #ff007f;     /* Sombra gigante del color neón */
+}
+
+#NOVEDADES1{
+    text-align: center;
+    font-size: 3em;
+    color: black; /* Color base blanco o muy claro */
+    text-shadow:0 0 7px #fff,       /* Sombra blanca central */
+        0 0 10px #fff,      /* Más sombra blanca */
+        0 0 21px #fff,      /* Sombra blanca más grande */
+        0 0 42px #ff007f,      /* Color neón (ciano brillante) */
+        0 0 82px #ff007f,      /* Más del color neón */
+        0 0 92px #ff007f,      /* Sombra grande del color neón */
+        0 0 102px #ff007f,     /* Sombra muy grande del color neón */
+        0 0 151px #ff007f;     /* Sombra gigante del color neón */
+}
+
+
+
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-bienvenida {
+    width: 50px; /* Tamaño más pequeño para móvil */
+    height: 50px;
+}
+
+/* Elimina esta regla por completo o comenta esta línea */
+/*.secciones-buttom{
+    color: inherit;
+    text-decoration: none;
+    margin-left: 200px;
+}*/
+
+body {
+
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Esto oculta la barra de desplazamiento horizontal */
+    background-image: url('imagenes/fondo2.jpg'); /* Reemplaza 'URL_DE_TU_IMAGEN.jpg' por la ruta de tu archivo de imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-size: cover; /* Escala la imagen para que cubra toda el área del fondo */
+    background-position: center center; /* Centra la imagen en la página */
+    background-attachment: scroll; /* Hace que la imagen se desplace con el contenido (esto es lo que quieres) */
+}
+
+.imagen-galeria {
+   
+    width: 340px;
+    height: 350px;
+    
+}
+
+.vestido-item {
+    background-color: white;
+    text-align: center;
+    /*border: 2px solid blue; /* Contorno azul por defecto */
+    padding: 10px;
+    margin: 10px;
+}
+.vestidos-contenedor {
+    
+    margin-top: 50px; /* Esto agrega 50 píxeles de espacio arriba del contenedor */
+    margin-bottom: 50px; /* Esto agrega 50 píxeles de espacio debajo del contenedor */
+    /*border: 2px solid red; /* Contorno rojo por defecto */
+    display: flex; /* Alinea los elementos hijos en una fila */
+    justify-content: space-around; /* Distribuye el espacio entre los elementos */
+    align-items: flex-start; /* Alinea los elementos en la parte superior */
+}
+
+
+
+.maquillaje-item {
+    background-color: white;
+    text-align: center;
+    /*border: 2px solid blue; /* Contorno azul por defecto */
+    padding: 10px;
+    margin: 10px;
+}
+
+
+.maquillaje-contenedor{
+    margin-top: 50px; /* Esto agrega 50 píxeles de espacio arriba del contenedor */
+    margin-bottom: 50px; /* Esto agrega 50 píxeles de espacio debajo del contenedor */
+   /* border: 2px solid red; /* Contorno rojo por defecto */
+    display: flex; /* Alinea los elementos hijos en una fila */
+    justify-content: space-around; /* Distribuye el espacio entre los elementos */
+    align-items: flex-start; /* Alinea los elementos en la parte superior */
+}
+
+.maquillaje-galeria{
+    width: 300px;
+    height: 250px;
+}
+
+
+
+.logos-contenedor {
+    display: flex; /* Mantiene el diseño flexbox */
+    flex-direction: column; /* Los apila verticalmente */
+    position: fixed; /* Posiciona el contenedor en relación con el viewport */
+    bottom: 20px; /* Distancia desde la parte inferior */
+    right: 20px; /* Distancia desde la parte derecha */
+    z-index: 1000; /* Asegura que esté encima de otros elementos */
+}
+
+.logo-buttom {
+    margin: 5px 0; /* Espacio entre los logos */
+}
+
+.logos-contenedor img {
+    width: 45px; /* Tamaño de los íconos */
+    height: auto; /* Mantiene la proporción */
+}
+
+@media (max-width: 768px) {
+    .vestidos-contenedor, .maquillaje-contenedor {
+        flex-direction: column; /* Apila los elementos verticalmente */
+        align-items: center; /* Centra los elementos */
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .vestido-item, .maquillaje-item {
+        width: 90%; /* Ancho para ocupar casi toda la pantalla */
+        margin: 10px 0; /* Espaciado vertical */
+    }
+
+    .imagen-galeria, .maquillaje-galeria {
+        width: 100%; /* Las imágenes se ajustan al ancho de su contenedor */
+        height: auto; /* Mantiene la proporción de la imagen */
+    }
+}
+
+.main-header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.main-nav {
+    display: flex; /* CAMBIO: Ahora los elementos del menú se muestran */
+    justify-content: flex-end; /* Alinea los elementos a la derecha */
+}
+
+.nav-item {
+    color: black;
+    text-decoration: none;
+    margin-left: 15px; /* Espacio entre los enlaces, mucho más pequeño */
+    font-weight: bold;
+    white-space: nowrap;
+    font-size: 14px; /* Opcional: reduce el tamaño de la fuente para que quepan todos */
+}
+
+/* Mostrar el menú en pantallas más grandes */
+@media (min-width: 769px) {
+    .main-nav {
+        display: flex; /* Muestra el menú en escritorio */
+        justify-content: flex-end; /* Alinea los elementos a la derecha */
+    }
+}
